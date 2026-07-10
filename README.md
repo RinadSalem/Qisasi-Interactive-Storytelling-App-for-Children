@@ -236,7 +236,6 @@ flutter pub get
 flutter run
 ```
 
-> Replace `<your-username>` with the actual GitHub username or organization hosting this repository.
 
 ---
 
