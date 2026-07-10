@@ -14,6 +14,7 @@ It combines personalized story generation, synchronized text-to-speech (TTS), an
 - [Database Architecture](#database-architecture)
 - [Application Data Flow](#application-data-flow)
 - [Technology Stack](#technology-stack)
+- [Team & Contributions](#-team--contributions)
 - [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
 - [License](#license)
@@ -194,6 +195,28 @@ This ensures reading analytics correspond to the child's actual local time rathe
 | Material Design          | Responsive and accessible user interface                          |
 
 ---
+## 👥 Team & Contributions
+
+This project was developed as a collaborative graduation project. Below is the breakdown of my core technical contributions to the platform:
+
+### 🛠️ My Contributions 
+* **Database Design & Architecture:**  
+  Designed the complete local relational database schema (ERD) from scratch. Defined entities, relationships, and constraints across the application's 14 interconnected tables, providing the foundation for the offline-first data architecture.
+
+* **Weighted Rule-Based Inference Engine:**  
+  Designed and implemented the core `StoryEngine` algorithm in Dart. Developed a deterministic recommendation pipeline that calculates weighted matching scores based on user-selected attributes (Mood, Character, Location, and Animal), with tie-breaking logic for equivalent matches.
+
+* **Story & Asset Management Pipeline:**  
+  Developed the logic responsible for retrieving, processing, and presenting localized Arabic stories with their associated visual assets entirely offline.
+
+* **Core UI & Feature Implementation:**  
+  Designed and implemented key user journeys and their state management logic, including:
+  * **Story Reading View:** Built the main reading interface and integrated text presentation with text-to-speech (TTS) synchronization.
+  * **Home Screen:** Developed the main navigation dashboard for children.
+  * **Story Customization Wizard:** Created the interactive multi-step story configuration flow.
+  * **Favorites & Bookmarks System:** Implemented local persistence for saved stories.
+  * **Ready-Made Stories Library:** Developed the browsing experience with dynamic local data binding.
+  ---
 
 ## Getting Started
 
